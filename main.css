@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+header li,
+section h2,
+section h3,
+form button {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 700;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #611818;
+    color:white;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 48px;
+    margin-top: 24px;
+}
+
+.logo li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0;
+    color: #611818;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 8px;
+}
+
+.social img {
+    height: 24px;
+}
+.social li, a {
+    display: inline;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    resize: none;
+}
+form textarea {
+    height: 180px;
+}
+form button {
+    background-color: #611818;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color:#992828;
+}
+input:focus, textarea:focus {
+    outline-color: #611818;
+}
+footer {
+    background-color: #611818;
+    color: #fff;
+    padding: 16px 0;
+}
+.tab {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.tav>div:nth-child(4n+1),
+.tab>div:nth-child(4n+1),
+.tav>div:nth-child(4n+1),
+.tab>div:nth-child(4n+2){
+    background-color: rgba(211, 211, 211, 0.466);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
